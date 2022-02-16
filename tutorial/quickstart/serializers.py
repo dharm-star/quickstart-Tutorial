@@ -10,4 +10,4 @@ class UsersSerializer(serializers.HyperlinkedModelSerializer): #(serializers.Mod
 class GroupSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Group
-        fields =['id', 'name'] #"__all__"
+        fields =['id', 'name'] #"__all__"  #dont include url
